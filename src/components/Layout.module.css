@@ -1,0 +1,17 @@
+.shell {
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem calc(1.25rem + env(safe-area-inset-bottom));
+}
+
+.mainWithNav {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem calc(5.5rem + env(safe-area-inset-bottom));
+}

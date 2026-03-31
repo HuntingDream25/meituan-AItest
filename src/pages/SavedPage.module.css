@@ -1,0 +1,214 @@
+.head {
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0 0 0.25rem;
+  font-size: 1.35rem;
+}
+
+.sub {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.empty {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.inlineLink {
+  color: color-mix(in oklab, var(--accent) 75%, var(--text));
+  font-weight: 750;
+}
+
+.list {
+  list-style: none;
+  margin: 0 0 1.35rem;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.item {
+  border-radius: 1.05rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.mainHit {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: inherit;
+  padding: 0.95rem;
+  cursor: pointer;
+}
+
+.name {
+  display: block;
+  font-weight: 850;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.match {
+  display: block;
+  font-size: 0.78rem;
+  color: color-mix(in oklab, var(--accent) 70%, var(--muted));
+  font-weight: 750;
+  margin-bottom: 0.45rem;
+}
+
+.reason {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.rowTools {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0 0.95rem 0.85rem;
+}
+
+.tagMini {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.reorder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.reorder button {
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.reorder button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.top3 {
+  border-top: 1px solid var(--border);
+  padding-top: 1.15rem;
+}
+
+.top3Title {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.top3Hint {
+  margin: 0 0 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.top3List {
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.top3Item {
+  padding: 0.9rem;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in oklab, var(--accent) 22%, var(--border));
+  background: color-mix(in oklab, var(--accent) 6%, var(--surface));
+}
+
+.top3Head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.45rem;
+}
+
+.badge {
+  font-size: 0.72rem;
+  font-weight: 900;
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.45rem;
+  background: color-mix(in oklab, var(--accent) 35%, transparent);
+}
+
+.top3Name {
+  border: none;
+  background: none;
+  padding: 0;
+  font-weight: 850;
+  font-size: 1rem;
+  color: var(--text);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pill {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.top3Reason {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: color-mix(in oklab, var(--text) 85%, var(--muted));
+}
+
+.top3Empty {
+  margin: 0;
+  color: var(--muted);
+}
+
+.bullets {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+}
+
+.bullets h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.bullets ul {
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.bullets li {
+  margin: 0.35rem 0;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: color-mix(in oklab, var(--text) 86%, var(--muted));
+}

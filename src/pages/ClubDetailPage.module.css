@@ -1,0 +1,123 @@
+.backBtn {
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-size: 0.88rem;
+  padding: 0 0 0.75rem;
+  cursor: pointer;
+}
+
+.cover {
+  position: relative;
+  border-radius: 1.15rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+}
+
+.coverImg {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.coverShade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent 55%);
+}
+
+.h1 {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.9rem;
+  margin: 0;
+  font-size: 1.45rem;
+}
+
+.section {
+  margin-bottom: 1.1rem;
+}
+
+.section h2 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.section p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: color-mix(in oklab, var(--text) 88%, var(--muted));
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: color-mix(in oklab, var(--text) 88%, var(--muted));
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.reviews {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.reviews li {
+  padding: 0.75rem;
+  border-radius: 0.95rem;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: color-mix(in oklab, var(--text) 88%, var(--muted));
+}
+
+.author {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.ai {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in oklab, var(--accent) 30%, var(--border));
+  background: color-mix(in oklab, var(--accent) 8%, var(--surface));
+}
+
+.ai h2 {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+}
+
+.ai p {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footerLinks a {
+  color: color-mix(in oklab, var(--accent) 70%, var(--text));
+  font-weight: 750;
+}

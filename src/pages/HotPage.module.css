@@ -1,0 +1,80 @@
+.head {
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0 0 0.25rem;
+  font-size: 1.35rem;
+}
+
+.sub {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.item {
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 0.65rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.thumb {
+  width: 84px;
+  height: 84px;
+  border-radius: 0.85rem;
+  object-fit: cover;
+  flex: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+  min-width: 0;
+}
+
+.name {
+  font-weight: 850;
+  font-size: 0.98rem;
+}
+
+.meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.footer {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.footer a {
+  color: color-mix(in oklab, var(--accent) 70%, var(--text));
+  font-weight: 750;
+}
