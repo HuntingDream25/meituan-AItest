@@ -1,12 +1,12 @@
 :root {
-  --bg: #0c1014;
-  --surface: #141a22;
-  --surface2: #101821;
-  --border: color-mix(in oklab, #cfe7ff 12%, transparent);
-  --text: #e9eef5;
-  --muted: #96a2b2;
+  --bg: #0b0e13;
+  --surface: #131922;
+  --surface2: #0f141d;
+  --border: color-mix(in oklab, #a8c4ff 14%, transparent);
+  --text: #eef2f7;
+  --muted: #8b96a8;
   --accent: #e85d4c;
-  --accent2: #f2a454;
+  --accent2: #f0b14a;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
 }
 
@@ -24,13 +24,14 @@ body {
 body {
   margin: 0;
   font-family:
+    'Instrument Sans',
     ui-sans-serif,
     system-ui,
     'PingFang SC',
     'Microsoft YaHei',
     'Noto Sans SC',
     sans-serif;
-  background: radial-gradient(1200px 700px at 20% 0%, #182232 0%, var(--bg) 55%);
+  background: var(--bg);
   color: var(--text);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,6 +39,7 @@ body {
 
 #root {
   min-height: 100%;
+  min-height: 100dvh;
 }
 
 img {
